@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+        * {
+            color: rgb(31, 16, 44);
+        }
+
+        input {
+            border: 1px solid gray;
+            border-radius: 16px;
+            padding: 8px 16px;
+            margin: 8px 0px;
+        }
+    </style>
+</head>
+
+<body style="font-size:large; margin: 0px 100px">
+    <h1>How Form Works</h1>
+    <form id="studentForm" style="background-color: rgb(202, 194, 184); padding: 100px;" method="post" autocomplete="on"
+        novalidate name="form1">
+        <div>
+            <h3>Personal basic Information</h3>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" class="fInput" value="" name="" placeholder="eg: Muheto " required />
+            </div>
+            <div>
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="firstName" class="fInput" value="Hodal" name="" placeholder="eg: Hodal"
+                    readonly />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" class="fInput" value="" name="" placeholder="eg: mhthodol@gamil.com"
+                    required />
+            </div>
+
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" class="fInput" value="" name="" required />
+            </div>
+            <div>
+                <input type="button" name="" id="" value="submit" />
+            </div>
+        </div>
+
+    </form>
+
+    <form action="" style="background-color: rgb(235, 209, 176); padding: 100px;">
+        <div>
+            <h1>Other Information</h1>
+            <div>
+                <h4>What Do you Like to Eat ?</h4>
+                <div>
+                    <input type="radio" name="food" id="Breads" value="Breads" />
+                    <label for="Breads">Breads</label>
+                </div>
+                <div>
+                    <input type="radio" name="food" id="Igitoki" value="Igitoki" />
+                    <label for="Igitoki">Igitoki</label>
+                </div>
+                <div>
+                    <input type="radio" name="food" id="Rice" value="Rice" />
+                    <label for="Rice">Rice</label>
+                </div>
+            </div>
+            <div>
+                <h1>Choose All things that can Match to you !!</h1>
+                <div>
+                    <input type="checkbox" name="car" id="car" value="Car">
+                    <label for="car">car</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="House" id="House" value="House">
+                    <label for="House">House</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Clothes" id="Clothes" value="Clothes">
+                    <label for="Clothes">Clothes</label>
+                </div>
+            </div>
+
+
+        </div>
+        <div>
+            <h1>Enter your Date</h1>
+            <input type="date" name="" id="" value="">
+        </div>
+        <div>
+            <h1>Enter your month</h1>
+            <input type="month" name="" id="" value="">
+        </div>
+        <div>
+            <h1>Enter your Week</h1>
+            <input type="week" name="" id="" value="">
+        </div>
+
+        <div>
+            <h1> Choose your Color</h1>
+            <input type="color">
+        </div>
+        <div>
+            <h1> Choose your Range</h1>
+            <input type="range">
+        </div>
+
+        <div>
+            <h1> Choose your File</h1>
+            <input type="file" value="">
+        </div>
+        <div>
+            <h1> Choose your number</h1>
+            <input type="number">
+        </div>
+        <div>
+            <h1> Choose your search</h1>
+            <input type="search">
+        </div>
+        <div>
+            <h1> Choose your Telephone</h1>
+            <input type="tel" value="+250...">
+        </div>
+        <div>
+            <h1> Choose your Telephone</h1>
+            <input type="reset" value="Clear All">
+        </div>
+        <div>
+            <h1> Choose your Hiden</h1>
+            <input type="hidden" value="This is Hiden">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#parentDiv {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    font-size: 16px;
+    color: wheat;
+}
+
+/* div>div{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+
+} */
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 50%;
+}
+
+#Container{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlesContainer{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1{
+    background-color: tomato;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cirlce2{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.cirlce2 > h1{
+    display: inline;
+}
+.circle1,.cirlce2{
+    border-radius: 50%;
+}
+.circlesContainer{
+    border-radius: 20px;
+}
